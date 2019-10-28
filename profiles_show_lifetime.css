@@ -1,13 +1,13 @@
-		.p-profiles-show .lifetime .cuts .cut:after {
-			content: '\\_f105';
-			font: normal normal normal 14px/1 FontAwesome;
-			font-size: inherit;
-			text-rendering: auto;
-			-webkit-font-smoothing: antialiased;
-			top: -8px;
-			right: 5px;
-			position: relative;
-			font-size: 21px;
-			color: #bd15fd;
-			z-index: 10;
-		}
+	.p-profiles-show .lifetime .cuts .cut:after {
+		content: '\\_f105';
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		top: -8px;
+		right: 5px;
+		position: relative;
+		font-size: 21px;
+		color: #7511e4;
+		z-index: 10;
+	}
