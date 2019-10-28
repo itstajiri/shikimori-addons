@@ -1,7 +1,7 @@
 	.p-profiles .profile-head .c-history .entry:hover, .p-topics .l-menu .reviews .entry:hover, .p-topics .l-menu .clubs .entry:hover {
 		transform: scale(1.0);
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: none;
+		padding-right: none;
 		text-decoration: none !important;
 		border: none !important;
 		background: rgba(var(--menu-back), 0.55);
