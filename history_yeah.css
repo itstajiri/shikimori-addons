@@ -4,7 +4,7 @@
 		padding-right: 0px;
 		text-decoration: none !important;
 		border: none !important;
-		background: rgba(var(--shadows-color), 0.15);
+		background: rgba(var(--shadows-color), 0.55);
 		border-radius: 10px;
 		box-shadow: none;
 	}
