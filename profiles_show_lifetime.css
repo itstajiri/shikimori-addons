@@ -8,6 +8,6 @@
 			right: 5px;
 			position: relative;
 			font-size: 21px;
-			color: #7a7a7a;
+			color: rgba(var(--very-high-rating), var(--hundred));
 			z-index: 10;
 		}
