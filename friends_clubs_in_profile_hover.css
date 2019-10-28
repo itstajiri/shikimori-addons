@@ -1,0 +1,8 @@
+.b-user.avatar img:hover {
+  border-radius: 50%;
+  border: 2px solid  rgba(var(--hover-color), var(--hundred));
+}
+
+.b-club .logo:hover {
+  border: 2px solid  rgba(var(--hover-color), var(--hundred));
+}
