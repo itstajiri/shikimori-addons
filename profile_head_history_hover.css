@@ -1,0 +1,3 @@
+	.p-profiles .profile-head .c-history .entry:hover, .p-topics .l-menu .reviews .entry:hover, .p-topics .l-menu .clubs .entry:hover {
+		background: rgba(var(--menu-back), 0.55);
+	}
