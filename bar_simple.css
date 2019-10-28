@@ -1,0 +1,47 @@
+.bar.simple .bar.s3 {
+	  background: rgba(var(--small-rating), var(--hundred));
+	  transition: 0.2s ease-out;
+	}
+
+	.bar.simple .bar.s3:hover {
+	  background: rgba(var(--small-rating), var(--hundred));
+	}
+
+	.bar.simple .bar.s2 {
+	  background: rgba(var(--average-rating), var(--hundred));
+	  transition: 0.2s ease-out;
+	}
+
+	.bar.simple .bar.s2:hover {
+	  background: rgba(var(--average-rating), var(--hundred));
+	}
+
+	.bar.simple .bar.s1 {
+	  background: rgba(var(--high-rating), var(--hundred));
+	  transition: 0.2s ease-out;
+	}
+
+	.bar.simple .bar.s1:hover {
+	  background: rgba(var(--high-rating), var(--hundred));
+	}
+
+	.bar.simple .bar.s0 {
+	  background: rgba(var(--very-high-rating), var(--hundred));
+	  transition: 0.2s ease-out;
+	}
+
+	.bar.simple .bar.s0:hover {
+	  background: rgba(var(--very-high-rating), var(--hundred));
+	}
+
+	.bar.simple .bar {
+	  border-radius: 5px;
+	}
+
+	.bar.horizontal {
+	  padding: 0px 5px 0px 0px;
+	}
+
+	.activity .bar.simple .bar {
+	  border-radius: 8px 8px 0px 0px;
+	}
