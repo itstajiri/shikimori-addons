@@ -44,15 +44,15 @@
 			}
 
   .l-top_menu-v2 {
-    background: rgba(var(--menu-back), 0.25);
-    box-shadow: 0 1px 10px 10px rgba(var(--menu-back), 0.25) !important;
-    transition: 0.3s ease-in-out;
+    background: rgba(var(--menu-back), 0.15);
+    box-shadow: 0 1px 10px 10px rgba(var(--menu-back), 0.15) !important;
+    transition: 0.35s ease-in-out;
     border-bottom: unset;
   }
 
   .l-top_menu-v2:hover, .l-top_menu-v2.is-search-focus {
-    background: rgba(var(--menu-back), 0.5) !important;
-    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.75) !important;
+    background: rgba(var(--menu-back), 0.65) !important;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.65) !important;
   }
 
   .l-top_menu-v2 .global-search .search-results, .l-top_menu-v2 .menu-dropdown > span a:hover {
