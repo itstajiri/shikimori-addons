@@ -125,6 +125,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .no
 
 body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active {
     background: rgba(0, 0, 0, 0.2);
+}
 
 body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.65) 100%);
