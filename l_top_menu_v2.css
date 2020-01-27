@@ -43,15 +43,15 @@
 	  transition: 0.5s ease-out;
 	}
 
- 	 .l-top_menu-v2 .submenu {
-	    background: rgba(var(--menu-back), 0.65);
-	  }
-
 	  .l-top_menu-v2 {
 	    background: rgba(var(--menu-back), 0.15);
 	    box-shadow: 0 1px 10px 10px rgba(var(--menu-back), 0.15) !important;
 	    transition: 0.35s ease-in-out;
 	    border-bottom: unset;
+	  }
+
+ 	 .l-top_menu-v2 .submenu {
+	    background: rgba(var(--menu-back), 0.65);
 	  }
 
 	  .l-top_menu-v2:hover, .l-top_menu-v2.is-search-focus {
@@ -60,5 +60,5 @@
 	  }
 
 	  .l-top_menu-v2 .global-search .search-results, .l-top_menu-v2 .menu-dropdown > span a:hover {
- 	    background-color:  rgba(var(--menu-back), 0.8);
+ 	    background-color:  rgba(var(--menu-back), 0.65);
 	  }
