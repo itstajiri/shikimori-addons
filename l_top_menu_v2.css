@@ -43,6 +43,52 @@
 	  transition: 0.5s ease-out;
 	}
 
+  /* Chrome/Opera/Safari */
+  body.p-achievements.p-profiles ::-webkit-input-placeholder {
+    color: #1C00ff00!important;
+    transition: 0.5s ease-out;
+  }
+
+	  body.p-achievements.p-profiles.l-top_menu-v2:hover ::-webkit-input-placeholder {
+	  color: #dddddd!important;
+	  transition: 0.5s ease-out;
+	}
+  
+  /* Firefox 19+ */
+  body.p-achievements.p-profiles ::-moz-placeholder {
+    transition: 0.5s ease-out;
+    color: #1C00ff00 !important;
+  }
+
+  body.p-achievements.p-profiles.l-top_menu-v2:hover ::-moz-placeholder {
+    transition: 0.5s ease-out;
+    color: #dddddd !important;
+  }
+  
+  /* IE 10+ */
+  body.p-achievements.p-profiles :-ms-input-placeholder {
+    color: #1C00ff00 !important;
+    transition: 0.5s ease-out;
+  }
+
+  body.p-achievements.p-profiles.l-top_menu-v2:hover :-ms-input-placeholder {
+    color: #dddddd !important;
+    transition: 0.5s ease-out;
+  }
+  
+  /* Firefox 18- */
+  body.p-achievements.p-profiles :-moz-placeholder {
+    color: #1C00ff00 !important;
+    transition: 0.5s ease-out;
+  }
+
+  body.p-achievements.p-profiles.l-top_menu-v2:hover :-moz-placeholder {
+    color: #dddddd !important;
+    transition: 0.5s ease-out;
+  }
+
+
+
 	  .l-top_menu-v2 {
 	    background: rgba(var(--menu-back), 0.15);
 	    box-shadow: 0 1px 10px 10px rgba(var(--menu-back), 0.15) !important;
@@ -62,3 +108,32 @@
 	  .l-top_menu-v2 .global-search .search-results, .l-top_menu-v2 .menu-dropdown > span a:hover {
  	    background-color:  rgba(var(--menu-back), 0.65);
 	  }
+
+	body.p-achievements.p-profiles .l-top_menu-v2 .submenu {
+   	  background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.65) 100%);
+	}
+
+
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active {
+    background: rgba(0, 0, 0, 0.12);
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:hover, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:hover {
+    background: linear-gradient(168deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.25) 100%);
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active {
+    background: rgba(0, 0, 0, 0.2);
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:hover, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:hover {
+    background: linear-gradient(168deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.25) 100%);
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.65) 100%);
+}
