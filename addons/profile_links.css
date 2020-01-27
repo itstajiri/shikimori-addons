@@ -1,0 +1,77 @@
+		.p-profiles-show .b-link[href*="https://www.twitch.tv/xtajiri"] {
+		  position: fixed;
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  top: 200px; /* Отступ сверху */
+		  width: 150px; /* Ширина */
+		  height: 50px; /* Высота */
+		  right: -95px; /* Прячет кнопку (должно торчать 60px (180 - 60 = -120) */
+		  text-align: right; /* "лепит" текст на правый бок */
+		  padding: .8rem 1.2rem; 
+		  background: url(https://i.imgur.com/QceuTBb.png) no-repeat 13px center / 20%; /* Картинка / XX px - отступ слева / XX % - величина картинки */
+		  background-color: rgba(0, 0, 0, 0.25); /* Цвет фона кнопки */
+		  border: 1px solid #1b2127; /* Толщина и цвет рамки */
+		  border-width: 1px 0 1px 1px;
+		  border-radius: 5px 0 0 5px; /* Скругление углов */
+		  z-index: 20;
+		  transition: 1s ease;
+		}
+
+		.p-profiles-show .b-link[href*="https://www.twitch.tv/xtajiri"]:hover {
+		  right: 0;
+		  text-decoration: none;
+		  background: url(https://i.imgur.com/QceuTBb.png) no-repeat 13px center / 20%;
+		  background-color: rgba(0, 0, 0, 0.55)
+		}
+
+		.p-profiles-show .b-link[href*="https://steamcommunity.com/profiles/76561198091000829"] {
+		  position: fixed;
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  top: 260px; /* Отступ сверху */
+		  width: 150px; /* Ширина */
+		  height: 50px; /* Высота */
+		  right: -95px; /* Прячет кнопку (должно торчать 60px (180 - 60 = -120) */
+		  text-align: right; /* "лепит" текст на правый бок */
+		  padding: .8rem 1.2rem; 
+		  background: url(https://i.imgur.com/mV55m7K.png) no-repeat 13px center / 20%; /* Картинка / XX px - отступ слева / XX % - величина картинки */
+		  background-color: rgba(0, 0, 0, 0.25); /* Цвет фона кнопки */
+		  border: 1px solid #1b2127; /* Толщина и цвет рамки */
+		  border-width: 1px 0 1px 1px;
+		  border-radius: 5px 0 0 5px; /* Скругление углов */
+		  z-index: 20;
+		  transition: 1s ease;
+		}
+
+		.p-profiles-show .b-link[href*="https://steamcommunity.com/profiles/76561198091000829"]:hover {
+		  right: 0;
+		  text-decoration: none;
+		  background: url(https://i.imgur.com/mV55m7K.png) no-repeat 13px center / 20%;
+		  background-color: rgba(0, 0, 0, 0.55)
+		}
+
+		.p-profiles-show .b-link[href*="https://is.gd/mtkhOV"] {
+		  position: fixed;
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  top: 320px; /* Отступ сверху */
+		  width: 150px; /* Ширина */
+		  height: 50px; /* Высота */
+		  right: -95px; /* Прячет кнопку (должно торчать 60px (180 - 60 = -120) */
+		  text-align: right; /* "лепит" текст на правый бок */
+		  padding: .8rem 1.2rem; 
+		  background: url(https://i.imgur.com/k81LNUp.png) no-repeat 13px center / 20%; /* Картинка / XX px - отступ слева / XX % - величина картинки */
+		  background-color: rgba(0, 0, 0, 0.25); /* Цвет фона кнопки */
+		  border: 1px solid #1b2127; /* Толщина и цвет рамки */
+		  border-width: 1px 0 1px 1px;
+		  border-radius: 5px 0 0 5px; /* Скругление углов */
+		  z-index: 20;
+		  transition: 1s ease;
+		}
+
+		.p-profiles-show .b-link[href*="https://is.gd/mtkhOV"]:hover {
+		  right: 0;
+		  text-decoration: none;
+		  background: url(https://i.imgur.com/k81LNUp.png) no-repeat 13px center / 20%;
+		  background-color: rgba(0, 0, 0, 0.55)
+		}
