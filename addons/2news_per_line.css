@@ -1,0 +1,11 @@
+		@media (min-width: 1120px) { 
+		body#messages_index .l-page {
+			max-width: 1100px; /* максимальная ширина страницы контента (новостей)*/
+		}
+		body#messages_index .b-comments .b-message[data-appear_type="message"] {
+			width: calc(50%); /* ширина новости в 50%, то есть 2 элемента в строку */
+			min-height: 200px; /*  */
+			margin: 0px;
+			padding: 8px!important;
+		}
+		}
