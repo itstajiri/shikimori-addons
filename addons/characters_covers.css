@@ -1,0 +1,382 @@
+		/* Общие настройки обложек */
+		.b-catalog_entry .cover .image-cutter {
+		  background-size: cover;
+		  background-position: top center;
+		}
+
+		/* СМЕНА ОБЛОЖЕК */
+		/* Общие настройки обложек */
+		.b-catalog_entry .cover .image-cutter {
+		  background-size: cover;
+		  background-position: top center;
+		}
+
+		/* Список селекторов – скрываем стандартные обложки */
+		.b-catalog_entry > a[href *= 'characters/154019-'] img,
+		.b-catalog_entry > a[href *= 'characters/157535-'] img,
+		.b-catalog_entry > a[href *= 'characters/55977-'] img,
+		.b-catalog_entry > a[href *= 'characters/497-'] img,
+		.b-catalog_entry > a[href *= 'characters/112763-'] img,
+		.b-catalog_entry > a[href *= 'characters/87287-'] img,
+		.b-catalog_entry > a[href *= 'characters/132571-'] img,
+		.b-catalog_entry > a[href *= 'characters/23602-'] img,
+		.b-catalog_entry > a[href *= 'characters/643-'] img,
+		.b-catalog_entry > a[href *= 'characters/138093-'] img,
+		.b-catalog_entry > a[href *= 'characters/34470-'] img,
+		.b-catalog_entry > a[href *= 'characters/498-'] img,
+		.b-catalog_entry > a[href *= 'characters/43280-'] img,
+		.b-catalog_entry > a[href *= 'characters/83017-'] img,
+		.b-catalog_entry > a[href *= 'characters/558-'] img,
+		.b-catalog_entry > a[href *= 'characters/65239-'] img,
+		.b-catalog_entry > a[href *= 'characters/112559-'] img,
+		.b-catalog_entry > a[href *= 'characters/112759-'] img,
+		.b-catalog_entry > a[href *= 'characters/27-'] img,
+		.b-catalog_entry > a[href *= 'characters/141354-'] img,
+		.b-catalog_entry > a[href *= 'characters/112757-'] img,
+		.b-catalog_entry > a[href *= 'characters/151024-'] img,
+		.b-catalog_entry > a[href *= 'characters/86-'] img,
+		.b-catalog_entry > a[href *= 'characters/116319-'] img,
+		.b-catalog_entry > a[href *= 'characters/559-'] img,
+		.b-catalog_entry > a[href *= 'characters/103651-'] img,
+		.b-catalog_entry > a[href *= 'characters/112997-'] img,
+		.b-catalog_entry > a[href *= 'characters/2514-'] img,
+		.b-catalog_entry > a[href *= 'characters/147242-'] img,
+		.b-catalog_entry > a[href *= 'characters/109995-'] img,
+		.b-catalog_entry > a[href *= 'characters/43278-'] img,
+		.b-catalog_entry > a[href *= 'characters/22369-'] img,
+		.b-catalog_entry > a[href *= 'characters/2087-'] img,
+		.b-catalog_entry > a[href *= 'characters/70069-'] img,
+		.b-catalog_entry > a[href *= 'characters/124731-'] img,
+		.b-catalog_entry > a[href *= 'characters/11-'] img,
+		.b-catalog_entry > a[href *= 'characters/148518-'] img,
+		.b-catalog_entry > a[href *= 'characters/112891-'] img,
+		.b-catalog_entry > a[href *= 'characters/112893-'] img,
+		.b-catalog_entry > a[href *= 'characters/153798-'] img,
+		.b-catalog_entry > a[href *= 'characters/80243-'] img,
+		.b-catalog_entry > a[href *= 'characters/64599-'] img,
+		.b-catalog_entry > a[href *= 'characters/738-'] img,
+		.b-catalog_entry > a[href *= 'characters/140810-'] img,
+		.b-catalog_entry > a[href *= 'characters/63351-'] img,
+		.b-catalog_entry > a[href *= 'characters/136529-'] img,
+		.b-catalog_entry > a[href *= 'characters/154112-'] img,
+		.b-catalog_entry > a[href *= 'characters/151701-'] img,
+		.b-catalog_entry > a[href *= 'characters/503-'] img,
+		.b-catalog_entry > a[href *= 'characters/39411-'] img,
+		.b-catalog_entry > a[href *= 'characters/117873-'] img,
+		.b-catalog_entry > a[href *= 'characters/2160-'] img,
+		.b-catalog_entry > a[href *= 'characters/130007-'] img,
+		.b-catalog_entry > a[href *= 'characters/147065-'] img,
+		.b-catalog_entry > a[href *= 'characters/137864-'] img,
+		.b-catalog_entry > a[href *= 'characters/154038-'] img,
+		.b-catalog_entry > a[href *= 'characters/168968-'] img,
+		.b-catalog_entry > a[href *= 'characters/145733-'] img,
+		.b-catalog_entry > a[href *= 'characters/149771-'] img,
+		.b-catalog_entry > a[href *= 'characters/112157-'] img,
+		.b-catalog_entry > a[href *= 'characters/116275-'] img {
+		  opacity: 0; /* visibility: hidden ломает выбор аниме/персонажа в турнирах */
+		}
+
+		/* Смена обложки – A2 */
+		.b-catalog_entry a[href *= 'characters/154019-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/20Hxmfq.png);
+		}
+
+		/* Смена обложки – Kaine */
+		.b-catalog_entry a[href *= 'characters/157535-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/9B0lPfG.png);
+		}
+
+		/* Смена обложки – Mordred */
+		.b-catalog_entry a[href *= 'characters/55977-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/ZjoVQNX.png);
+		}
+
+		/* Смена обложки – Saber */
+		.b-catalog_entry a[href *= 'characters/497-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/cGc2r1v.png);
+		}
+
+		/* Смена обложки – Mahiru Hiiragi */
+		.b-catalog_entry a[href *= 'characters/112763-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/an7WXto.png);
+		}
+
+		/* Смена обложки – Mikaela Hyakuya */
+		.b-catalog_entry a[href *= 'characters/87287-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/dRBKi0P.png);
+		}
+
+		/* Смена обложки – Ryuunosuke Akutagawa */
+		.b-catalog_entry a[href *= 'characters/132571-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/5EkjibV.png);
+		}
+
+		/* Смена обложки – Shinobu Oshino */
+		.b-catalog_entry a[href *= 'characters/23602-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/tCEaCPv.png);
+		}
+
+		/* Смена обложки – Re-l Mayer */
+		.b-catalog_entry a[href *= 'characters/643-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/nJsJbBs.png);
+		}
+
+		/* Смена обложки – Urd Geales */
+		.b-catalog_entry a[href *= 'characters/138093-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/rnTYu4z.png);
+		}
+
+		/* Смена обложки – Kurisu Makise */
+		.b-catalog_entry a[href *= 'characters/34470-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/a1NmAio.png);
+		}
+
+		/* Смена обложки – Rin Tohsaka */
+		.b-catalog_entry a[href *= 'characters/498-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/JcPKErY.png);
+		}
+
+		/* Смена обложки – Inori Yuzuriha */
+		.b-catalog_entry a[href *= 'characters/43280-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/loGroH7.png);
+		}
+
+		/* Смена обложки – Shinoa Hiiragi */
+		.b-catalog_entry a[href *= 'characters/83017-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/ag95auc.png);
+		}
+
+		/* Смена обложки – Kallen Stadtfeld */
+		.b-catalog_entry a[href *= 'characters/558-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/bX91Yr7.png);
+		}
+
+		/* Смена обложки – Esdeath */
+		.b-catalog_entry a[href *= 'characters/65239-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/wauRNmS.png);
+		}
+
+		/* Смена обложки – Krul Tepes */
+		.b-catalog_entry a[href *= 'characters/112559-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/H6JWh0q.png);
+		}
+
+		/* Смена обложки – Lacus Welt */
+		.b-catalog_entry a[href *= 'characters/112759-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/JyS3f2k.png);
+		}
+
+		/* Смена обложки – Killua Zoldyck */
+		.b-catalog_entry a[href *= 'characters/27-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/HWLI4ml.png);
+		}
+
+		/* Смена обложки – Violet Evergarden */
+		.b-catalog_entry a[href *= 'characters/141354-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/ySEGPrO.png);
+		}
+
+		/* Смена обложки – Ferid Bathory */
+		.b-catalog_entry a[href *= 'characters/112757-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/52pavRe.png);
+		}
+
+		/* Смена обложки – Ky Luc */
+		.b-catalog_entry a[href *= 'characters/151024-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/98OksXp.png);
+		}
+
+		/* Смена обложки – Rei Ayanami */
+		.b-catalog_entry a[href *= 'characters/86-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/gaNfEQZ.png);
+		}
+
+		/* Смена обложки – Shalltear Bloodfallen */
+		.b-catalog_entry a[href *= 'characters/116319-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/5ZXJIMf.png);
+		}
+
+		/* Смена обложки – Suzaku Kururugi */
+		.b-catalog_entry a[href *= 'characters/559-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/WvMcGHR.png);
+		}
+
+		/* Смена обложки – Nine */
+		.b-catalog_entry a[href *= 'characters/103651-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/y4zzYsK.png);
+		}
+
+		/* Смена обложки – Eto */
+		.b-catalog_entry a[href *= 'characters/112997-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/QRXVxzN.png);
+		}
+
+		/* Смена обложки – Gilgamesh */
+		.b-catalog_entry a[href *= 'characters/2514-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/SKggagP.png);
+		}
+
+		/* Смена обложки – Gray */
+		.b-catalog_entry a[href *= 'characters/147242-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/DVTKEJT.png);
+		}
+
+		/* Смена обложки – Akira Mado */
+		.b-catalog_entry a[href *= 'characters/109995-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/1BrTW1p.png);
+		}
+
+		/* Смена обложки – Shuu Ouma  */
+		.b-catalog_entry a[href *= 'characters/43278-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/BhST9gN.png);
+		}
+
+		/* Смена обложки – Kanade Tachibana */
+		.b-catalog_entry a[href *= 'characters/22369-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/fGP3Zyi.png);
+		}
+
+		/* Смена обложки – Emiya */
+		.b-catalog_entry a[href *= 'characters/2087-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/3tjjYhy.png);
+		}
+
+		/* Смена обложки – Kurumi Tokisaki */
+		.b-catalog_entry a[href *= 'characters/70069-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/llXZign.png);
+		}
+
+		/* Смена обложки – Asta */
+		.b-catalog_entry a[href *= 'characters/124731-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/2jJ9sgo.png);
+		}
+
+		/* Смена обложки – Edward Elric */
+		.b-catalog_entry a[href *= 'characters/11-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/AzntiFl.png);
+		}
+
+		/* Смена обложки – Altair */
+		.b-catalog_entry a[href *= 'characters/148518-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/XSJOy06.png);
+		}
+
+		/* Смена обложки – Naofumi Iwatani */
+		.b-catalog_entry a[href *= 'characters/112891-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/lJqhdvX.png);
+		}
+
+		/* Смена обложки – Raphtalia */
+		.b-catalog_entry a[href *= 'characters/112893-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/qXMPKvk.png);
+		}
+
+		/* Смена обложки – 2B */
+		.b-catalog_entry a[href *= 'characters/153798-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/hxhiaFi.png);
+		}
+
+		/* Смена обложки – Shouko Nishimiya */
+		.b-catalog_entry a[href *= 'characters/80243-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/ogAUD6L.png);
+		}
+
+		/* Смена обложки – Kurou Yatogami */
+		.b-catalog_entry a[href *= 'characters/64599-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/xlvV0Ew.png);
+		}
+
+		/* Смена обложки – Lucy */
+		.b-catalog_entry a[href *= 'characters/738-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/JAKiJAG.png);
+		}
+
+		/* Смена обложки – Chika Fujiwara */
+		.b-catalog_entry a[href *= 'characters/140810-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/0E20kFc.png);
+		}
+
+		/* Смена обложки – Akame */
+		.b-catalog_entry a[href *= 'characters/63351-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/bVmyd1j.png);
+		}
+
+		/* Смена обложки – Mumei */
+		.b-catalog_entry a[href *= 'characters/136529-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/XybyafG.png);
+		}
+
+		/* Смена обложки – Popola */
+		.b-catalog_entry a[href *= 'characters/154112-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/zua83Qw.png);
+		}
+
+		/* Смена обложки – Nezumi */
+		.b-catalog_entry a[href *= 'characters/151701-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/Qo7D2oQ.png);
+		}
+
+		/* Смена обложки – Illyasviel von Einzbern */
+		.b-catalog_entry a[href *= 'characters/503-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/LuSnl48.png);
+		}
+
+		/* Смена обложки – Akito Hyuuga */
+		.b-catalog_entry a[href *= 'characters/39411-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/XBPqwaJ.png);
+		}
+
+		/* Смена обложки – Mira Yurizaki */
+		.b-catalog_entry a[href *= 'characters/117873-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/fg8qpf5.png);
+		}
+
+		/* Смена обложки – Hei */
+		.b-catalog_entry a[href *= 'characters/2160-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/wEVyteb.png);
+		}
+
+		/* Смена обложки – Albedo */
+		.b-catalog_entry a[href *= 'characters/116275-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/t1q9e7X.png);
+		}
+		
+		/* Смена обложки – Karna */
+		.b-catalog_entry a[href *= 'characters/130007-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/2baPCQn.png);
+		}
+		
+		/* Смена обложки – Merlin */
+		.b-catalog_entry a[href *= 'characters/147065-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/oSumWs7.png);
+		}
+		
+		/* Смена обложки – Oda Nabunaga */
+		.b-catalog_entry a[href *= 'characters/137864-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/0acSUO7.png);
+		}
+		
+		/* Смена обложки – Jeanne Alter */
+		.b-catalog_entry a[href *= 'characters/154038-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/aCBMo2e.png);
+		}
+		
+		/* Смена обложки – Atalanta */
+		.b-catalog_entry a[href *= 'characters/112157-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/E2GQLaC.png);
+		}
+		
+		/* Смена обложки – Achilles */
+		.b-catalog_entry a[href *= 'characters/149771-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/I9SjuLw.png);
+		}
+		
+		/* Смена обложки – Ana */
+		.b-catalog_entry a[href *= 'characters/168968-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/M0dbfC9.png);
+		}
+		
+		/* Смена обложки – Mash Kyrielight */
+		.b-catalog_entry a[href *= 'characters/145733-'] .image-cutter {
+		  background-image: url(https://i.imgur.com/xRc07lK.png);
+		}
