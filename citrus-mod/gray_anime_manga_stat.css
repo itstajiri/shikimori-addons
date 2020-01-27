@@ -1,0 +1,29 @@
+		@media (min-width: 1200px) {
+		.b-stats_bar .stat_name:after, .b-stats_bar.stat_name:before, .b-stats_bar.anime .stat_name, .b-stats_bar .stat_name .size {
+			color: #f3f3f3!important;
+		}
+		.b-stats_bar.anime .stat_name, .b-stats_bar.manga .stat_name, .b-stats_bar.anime .title:before, .b-stats_bar.manga .title:before {
+			background: rgba(0, 0, 0, 1)!important;
+		}
+		.b-stats_bar.anime .stat_name, .b-stats_bar.manga .stat_name {
+			border: 3px solid #25303263!important;	
+		}
+		.b-stats_bar.anime .stat_name[data-type="completed"]:hover {
+			border: 3px solid #179b1f8c!important;	
+		}
+		.b-stats_bar.manga .stat_name[data-type="completed"]:hover {
+			border: 3px solid #b810687d!important;	
+		}
+		.b-stats_bar .stat_name[data-type="watching,rewatching"]:hover {
+			border: 3px solid #6331b78a!important;	
+		}
+		.b-stats_bar .stat_name[data-type="on_hold"]:hover {
+			border: 3px solid #ac580687!important;	
+		}
+		.b-stats_bar .stat_name[data-type="dropped"]:hover {
+			border: 3px solid #8e0c0c82!important;	
+		}
+		.b-stats_bar .stat_name[data-type="planned"]:hover {
+			border: 3px solid #2968c082!important;	
+		}
+		}
