@@ -1,8 +1,0 @@
-  .l-footer:before {
-    content: 'e-design v.4.0';
-    position: absolute;
-    left: 5px;
-    bottom: 0;
-    color: rgba(var(--dark-color), 0.6);
-    font: bold 10px 'Comfortaa';
-  }
