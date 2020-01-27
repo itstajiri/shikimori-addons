@@ -82,3 +82,12 @@
   body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:focus, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active:hover {
     background: linear-gradient(270deg,  rgba(var(--hover-buttoms-1), var(--hundred)) 0%,  rgba(var(--hover-buttoms-1), var(--hundred)) 100%);
   }
+
+
+body.p-achievements.p-profiles .headline, body.p-achievements.p-profiles .subheadline {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+    color: #ffe1a7 !important;
+}
+    .c-genres .block2 .cc-achievements .b-achievement {
+    background: rgba(0, 0, 0, 0.5);
+  }
