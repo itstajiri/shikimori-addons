@@ -1,0 +1,15 @@
+  .b-user.avatar {
+	  filter: grayscale(100%)
+  }
+
+  .b-club .logo {
+	  filter: grayscale(100%)
+  }
+
+  .b-user.avatar:hover {
+    filter: grayscale(0%)
+  }
+
+  .b-club .logo:hover {
+    filter: grayscale(0%)
+  }
