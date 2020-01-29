@@ -44,11 +44,11 @@
 			}
 
 body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a:before {
-     background: rgba(var(--menu-back), 0.65);
+     background: rgba(var(--menu-back), 0.0);
 }
 
 body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
-    background: rgba(var(--menu-back), 0.65);
+    background: rgba(var(--menu-back), 0.0);
 }
 
     body.p-achievements.p-profiles .l-top_menu-v2 {
