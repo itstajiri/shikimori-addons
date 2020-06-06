@@ -102,9 +102,9 @@
 	--toggleTopRatings: visible;
 	--bgDimness: 50%;
 	--bannerVignetteOpacity: 90%;
-	--imageBrightness: 63%;
-	--imageBrightnessHov: 32%;
-	--infoBGOpacity: 85%;
+	--imageBrightness: 80%;
+	--imageBrightnessHov: 55%;
+	--infoBGOpacity: 53%;
 	
 	/* THEME COLOURS
 	 * 
@@ -137,8 +137,9 @@
 	--dropped: 6, 44%, 46%;
 	--planned: 56, 18%, 56%;
 	
-	--goldRating: var(--textProminent);
-	--silverRating: var(--textDim);
+	--goldRating: 51, 100%, 50%;
+	--silverRating: 0, 0%, 75%;
+	--infoBG: 0, 100%, 0%;
 }
 
 
@@ -1392,7 +1393,7 @@ body::before {
 	
 	width: 100%;
 	padding: 5px 0 27px !important;
-	background: hsla(var(--btn), var(--infoBGOpacity));
+	background: hsla(var(--infoBG), var(--infoBGOpacity));
 	border-radius: 0 0 6px 6px;
 	order: 95;
 	
