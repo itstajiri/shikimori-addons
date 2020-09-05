@@ -1,0 +1,46 @@
+@media screen and (min-width: 425px) {
+	/* Owari no Seraph */
+    .Animes_Mangas .c-manga.entry-43661 .image-cutter::after {
+        background-image: url("https://kawai.shikimori.one/system/mangas/original/43661.jpg");
+    }
+	
+	/* Tokyo Ghoul:re */
+    .Animes_Mangas .c-manga.entry-81117 .image-cutter::after {
+        background-image: url("https://moe.shikimori.one/system/mangas/original/81117.jpg");
+    }
+		
+	/* NieR: Automata */
+    .Animes_Mangas .c-manga.entry-108495 .image-cutter::after {
+        background-image: url("https://nyaa.shikimori.one/system/mangas/original/108495.jpg");
+    }
+		
+	/* Fullmetal Alchemist */
+    .Animes_Mangas .c-manga.entry-25 .image-cutter::after {
+        background-image: url("https://nyaa.shikimori.one/system/mangas/original/25.jpg");
+    }
+			
+	/* Bungou Stray Dogs */
+    .Animes_Mangas .c-manga.entry-56529 .image-cutter::after {
+        background-image: url("https://dere.shikimori.one/system/mangas/original/56529.jpg");
+    }
+				
+	/* Tokyo Ghoul */
+    .Animes_Mangas .c-manga.entry-33327 .image-cutter::after {
+        background-image: url("https://moe.shikimori.one/system/mangas/original/33327.jpg");
+    }
+					
+	/* Code Geass: Hangyaku no Lelouch */
+    .Animes_Mangas .c-manga.entry-1528 .image-cutter::after {
+        background-image: url("https://desu.shikimori.one/system/mangas/original/1528.jpg");
+    }
+					
+	/* Shaman King */
+    .Animes_Mangas .c-manga.entry-50 .image-cutter::after {
+        background-image: url("https://nyaa.shikimori.one/system/mangas/original/50.jpg");
+    }
+		/* Citrus */
+    .Animes_Mangas .c-manga.entry-50145 .image-cutter::after {
+        background-image: url("https://nyaa.shikimori.one/system/mangas/original/50145.jpg");
+    }
+	
+}
