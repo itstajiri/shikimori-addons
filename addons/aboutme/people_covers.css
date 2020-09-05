@@ -1,0 +1,44 @@
+/* Смена обложки – Keiichi Okabe */
+.Person-P a[href*="/42543"] .image-cutter::after {
+    background: url('https://desu.shikimori.one/system/people/original/42543.jpg?1594854665') 55% 40% / 100%;
+}
+
+/* Смена обложки – Hiroyuki Sawano */
+.Person-P a[href*="/8509"] .image-cutter::after {
+    background: url('https://dere.shikimori.one/system/people/original/8509.jpg?1591043770') 55% 40% / 110%;
+}
+
+/* Смена обложки – Takaya Kagami */
+.Person-P a[href*="/11437"] .image-cutter::after {
+    background: url('https://moe.shikimori.one/system/people/original/11437.jpg?1594848847') 55% 40% / 100%;
+}
+
+/* Смена обложки – Saori Hayami */
+.Person-P a[href*="/869"] .image-cutter::after {
+    background: url('https://dere.shikimori.one/system/people/original/869.jpg?1593635457') 55% 40% / 100%;
+}
+
+/* Смена обложки – Aoi Yuuki */
+.Person-P a[href*="/6686"] .image-cutter::after {
+    background: url('https://kawai.shikimori.one/system/people/original/6686.jpg?1593981213') 55% 40% / 100%;
+}
+
+/* Смена обложки – Kana Hanazawa */
+.Person-P a[href*="/185"] .image-cutter::after {
+    background: url('https://nyaa.shikimori.one/system/people/original/185.jpg?1594762614') 55% 40% / 100%;
+}
+
+/* Смена обложки – Sui Ishida */
+.Person-P a[href*="/15753"] .image-cutter::after {
+    background: url('https://desu.shikimori.one/system/people/original/15753.jpg?1594764190') 55% 40% / 100%;
+}
+
+/* Смена обложки – Ilya Kuvshinov */
+.Person-P a[href*="/48918"] .image-cutter::after {
+    background: url('https://desu.shikimori.one/system/people/original/48918.jpg?1552495037') 55% 40% / 100%;
+}
+
+/* Смена обложки – Nobuo Uematsu */
+.Person-P a[href*="/5150"] .image-cutter::after {
+    background: url('https://nyaa.shikimori.one/system/people/original/5150.jpg?1594846990') 55% 40% / 100%;
+}
