@@ -1,0 +1,29 @@
+@media screen and (min-width: 500px) {
+      .Person-0 .c-column {
+        width: calc(100% / 4);
+    }
+}
+@media screen and (min-width: 767px) {
+      .Person-0 .c-column {
+        width: calc(100% / 4);
+    }
+      .Blok-1 {
+        white-space: normal;
+        overflow-y: inherit;
+    }
+}
+@media screen and (min-width: 880px) {
+      .Person-0 .c-column {
+        width: calc(100% / 5);
+    }
+}
+@media screen and (min-width: 1024px) {
+      .Person-0 .c-column {
+        width: calc(100% / 6);
+    }
+}
+@media screen and (min-width: 1200px) {
+      .Person-0 .c-column {
+        width: calc(100% / 6);
+    }
+}
