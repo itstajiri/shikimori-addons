@@ -17,7 +17,6 @@
         opacity: 0;
         visibility: hidden;
     }
-
       .Person-P .c-column {
         display: inline-block;
         margin: 0 !important;
@@ -66,7 +65,6 @@
       .Person-P .c-column:hover > .cover .title {
         opacity: 0;
     }
-
       .Person-P .b-catalog_entry a .image-cutter::after {
         position: absolute;
         content: "";
@@ -93,7 +91,6 @@
       .Person-P .b-catalog_entry:hover > a .image-cutter::after {
         box-shadow: none;
     }
-
       .Person-P .cover .image-decor::before {
         position: absolute;
         display: flex;
@@ -108,7 +105,6 @@
       .Person-P .c-column:hover .image-decor::before {
         opacity: 1;
     }
-
       .Person-P .image-cutter::before,
       .Person-P .cover .image-decor::after {
         position: absolute;
@@ -133,8 +129,6 @@
       .Person-P .c-column:hover .image-cutter::before {
         opacity: 1;
     }
-
-    
       .Person-P .cover .image-decor::after {
         top: 0;
         left: 0;
@@ -152,10 +146,7 @@
       .Person-P .c-column:hover .image-decor::after {
         opacity: 1;
     }
-    
-    
 }
-
 @media screen and (min-width: 500px) {
       .Person-P .c-column {
         width: calc(100% / 4);
