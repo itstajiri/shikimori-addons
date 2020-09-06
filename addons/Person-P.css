@@ -157,13 +157,13 @@
 }
 
 @media screen and (min-width: 500px) {
-      .Person-P .c-column {
+      .Person-0 .c-column {
         width: calc(100% / 4);
     }
 }
 @media screen and (min-width: 767px) {
-      .Person-P .c-column {
-        width: calc(100% / 5);
+      .Person-0 .c-column {
+        width: calc(100% / 4);
     }
       .Blok-1 {
         white-space: normal;
@@ -171,17 +171,17 @@
     }
 }
 @media screen and (min-width: 880px) {
-      .Person-P .c-column {
-        width: calc(100% / 6);
+      .Person-0 .c-column {
+        width: calc(100% / 5);
     }
 }
 @media screen and (min-width: 1024px) {
-      .Person-P .c-column {
-        width: calc(100% / 7);
+      .Person-0 .c-column {
+        width: calc(100% / 6);
     }
 }
 @media screen and (min-width: 1200px) {
-      .Person-P .c-column {
-        width: calc(100% / 8);
+      .Person-0 .c-column {
+        width: calc(100% / 6);
     }
 }
