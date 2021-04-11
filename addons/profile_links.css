@@ -1,77 +1,81 @@
-		.p-profiles-show .b-link[href*="https://www.twitch.tv/xtajiri"] {
-		  position: fixed;
-		  text-transform: uppercase;
-		  text-decoration: none;
-		  top: 200px; /* Отступ сверху */
-		  width: 150px; /* Ширина */
-		  height: 50px; /* Высота */
-		  right: -95px; /* Прячет кнопку (должно торчать 60px (180 - 60 = -120) */
-		  text-align: right; /* "лепит" текст на правый бок */
-		  padding: .8rem 1.2rem; 
-		  background: url(https://i.imgur.com/QceuTBb.png) no-repeat 13px center / 20%; /* Картинка / XX px - отступ слева / XX % - величина картинки */
-		  background-color: rgba(0, 0, 0, 0.25); /* Цвет фона кнопки */
-		  border: 1px solid #1b2127; /* Толщина и цвет рамки */
-		  border-width: 1px 0 1px 1px;
-		  border-radius: 5px 0 0 5px; /* Скругление углов */
-		  z-index: 20;
-		  transition: 1s ease;
-		}
-
-		.p-profiles-show .b-link[href*="https://www.twitch.tv/xtajiri"]:hover {
-		  right: 0;
-		  text-decoration: none;
-		  background: url(https://i.imgur.com/QceuTBb.png) no-repeat 13px center / 20%;
-		  background-color: rgba(0, 0, 0, 0.55)
-		}
-
-		.p-profiles-show .b-link[href*="https://steamcommunity.com/profiles/76561198091000829"] {
-		  position: fixed;
-		  text-transform: uppercase;
-		  text-decoration: none;
-		  top: 260px; /* Отступ сверху */
-		  width: 150px; /* Ширина */
-		  height: 50px; /* Высота */
-		  right: -95px; /* Прячет кнопку (должно торчать 60px (180 - 60 = -120) */
-		  text-align: right; /* "лепит" текст на правый бок */
-		  padding: .8rem 1.2rem; 
-		  background: url(https://i.imgur.com/mV55m7K.png) no-repeat 13px center / 20%; /* Картинка / XX px - отступ слева / XX % - величина картинки */
-		  background-color: rgba(0, 0, 0, 0.25); /* Цвет фона кнопки */
-		  border: 1px solid #1b2127; /* Толщина и цвет рамки */
-		  border-width: 1px 0 1px 1px;
-		  border-radius: 5px 0 0 5px; /* Скругление углов */
-		  z-index: 20;
-		  transition: 1s ease;
-		}
-
-		.p-profiles-show .b-link[href*="https://steamcommunity.com/profiles/76561198091000829"]:hover {
-		  right: 0;
-		  text-decoration: none;
-		  background: url(https://i.imgur.com/mV55m7K.png) no-repeat 13px center / 20%;
-		  background-color: rgba(0, 0, 0, 0.55)
-		}
-
-		.p-profiles-show .b-link[href*="https://is.gd/mtkhOV"] {
-		  position: fixed;
-		  text-transform: uppercase;
-		  text-decoration: none;
-		  top: 320px; /* Отступ сверху */
-		  width: 150px; /* Ширина */
-		  height: 50px; /* Высота */
-		  right: -95px; /* Прячет кнопку (должно торчать 60px (180 - 60 = -120) */
-		  text-align: right; /* "лепит" текст на правый бок */
-		  padding: .8rem 1.2rem; 
-		  background: url(https://i.imgur.com/k81LNUp.png) no-repeat 13px center / 20%; /* Картинка / XX px - отступ слева / XX % - величина картинки */
-		  background-color: rgba(0, 0, 0, 0.25); /* Цвет фона кнопки */
-		  border: 1px solid #1b2127; /* Толщина и цвет рамки */
-		  border-width: 1px 0 1px 1px;
-		  border-radius: 5px 0 0 5px; /* Скругление углов */
-		  z-index: 20;
-		  transition: 1s ease;
-		}
-
-		.p-profiles-show .b-link[href*="https://is.gd/mtkhOV"]:hover {
-		  right: 0;
-		  text-decoration: none;
-		  background: url(https://i.imgur.com/k81LNUp.png) no-repeat 13px center / 20%;
-		  background-color: rgba(0, 0, 0, 0.55)
-		}
+@media screen and (min-width: 1200px) {
+   .button-right-1:hover,
+   .button-right-2:hover,
+   .button-right-3:hover,
+   .button-right-4:hover {
+      right: -10px;
+      z-index: 60;
+      opacity: 0.8;
+      background-color: rgba(var(--menu-back), 1) !important;
+   }
+   .button-right-1,
+   .button-right-2,
+   .button-right-3,
+   .button-right-4 {
+      position: fixed;
+      height: 50px;
+      box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.18);
+      border: 2px solid rgba(var(--bright-color), 0.1);
+      background-color: rgba(var(--menu-back), 0.9) !important;
+      text-shadow: 0 1px 2px #00000040;
+      border-radius: 1rem 0 0 1rem;
+      z-index: 20;
+      opacity: 0.8;
+      transition: 1s ease, background-position 0s, border 0s, border-radius 0s;
+   }
+   .button-right-1 {
+      top: 5.465rem; 
+      right: -120px;
+      width: 180px;
+      background: url("https://i.ibb.co/z26d4sh/samsung-side-sync.png") no-repeat left 5px center / 25%;
+   }
+   .button-right-2 {
+      top: 9.2rem;
+      right: -100px;
+      width: 160px;
+      background: url("https://i.ibb.co/CWgqChk/lightning-bolt.png") no-repeat left 5px center / 25%;
+   }
+   .button-right-3 {
+      top: 12.92rem;
+      right: -140px;
+      width: 200px;
+      background: url("https://i.ibb.co/BLw1kdf/star.png") no-repeat left 5px center / 20%;
+   }
+   .button-right-4 {
+      top: 16.71rem;
+      right: -140px;
+      width: 200px;
+      background: url("https://i.ibb.co/qFmMFzK/like.png") no-repeat left 5px center / 20%;
+   }
+   .button-right-1 .b-link,
+   .button-right-2 .b-link,
+   .button-right-3 .b-link,
+   .button-right-4 .b-link {
+      display: flex;
+      align-items: center;
+      height: 100% !important;
+      font-size: 16px !important;
+      color: rgba(var(--dark-color), var(--hundred)) !important;
+      justify-content: center;
+   }
+   .button-right-1 .b-link {
+      padding-left: 3rem;
+   }
+   .button-right-2 .b-link {
+      padding-left: 3.3rem;
+   }
+   .button-right-3 .b-link {
+      padding-left: 3rem;
+   }
+   .button-right-4 .b-link {
+      padding-left: 3rem;
+   }
+}
+@media screen and (max-width: 1200px) {
+   .button-right-1,
+   .button-right-2,
+   .button-right-3,
+   .button-right-4 {
+      display: none;
+   }
+}
